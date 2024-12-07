@@ -1,0 +1,138 @@
+*{
+    font-family: tahoma;
+}
+
+.header{
+    display: flex;
+    background-color: rgb(249, 114, 195);
+    padding: 20px;
+}
+
+.header-logo img{
+    height: 200px;
+}
+
+.header-title{
+    margin-top: auto;
+    margin-bottom:auto ;
+}
+
+.header-title a{
+    text-decoration: dotted;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(172, 78, 112);
+}
+
+.navigation{
+    background-color:rgb(239, 16, 124) ;
+    padding: 15px;
+    margin-top: 0px;
+}
+
+.navigation-item{
+    display: inline-block;
+    margin-left: 30px;
+    height: 25px;
+}
+
+.navigation-item a{
+    color: rgb(212, 162, 86);
+    text-decoration: dotted;
+}
+
+.navigation-item a:hover{
+    color: rgb(136, 75, 58);
+}
+
+.conten{
+    width: 80%;
+    margin: auto;
+}
+
+.conten h1{
+    color: rgb(104, 205, 203);
+    font-size: 45px;
+}
+
+.conten h2{
+    color: rgb(213, 39, 132);
+    font-size: 30px;
+}
+
+.tabel{
+    border-spacing: 10px;
+}
+
+.tabel-header{
+    padding: 20px;
+    text-align: left;
+}
+
+.tabel-conten{
+    background-color: rgb(53, 11, 241);
+}
+
+.tabel-content-genap{
+    background-color:rgb(79, 108, 197) ;
+}
+
+.tabel-conten td{
+    padding: 20px;
+}
+
+td>img{
+    width: 130px;
+}
+
+.tabel-conten:hover{
+    background-color:rgb(0, 255, 51) ;
+}
+
+.tabel-content-genap:hover{
+    background-color: rgb(50, 148, 115);
+}
+
+.form-group{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form-group label{
+    display: block;
+    font-size: 30px;
+    color: rgb(250, 254, 6);
+}
+
+.form-group input{
+    display: block;
+    margin-top: 20px;
+    width: 65%;
+}
+
+.form-group textarea{
+    display: block;
+    margin-top: 20px;
+    height: 250px;
+    width: 60%;
+}
+
+.btn{
+    width: 160px;
+    height: 65px;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(232, 13, 13);
+    background-color: rgb(234, 35, 210);
+    border: 0px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(0, 167, 170);
+}
+
+.btn:active{
+    background-color: rgb(151, 48, 65);
+}
